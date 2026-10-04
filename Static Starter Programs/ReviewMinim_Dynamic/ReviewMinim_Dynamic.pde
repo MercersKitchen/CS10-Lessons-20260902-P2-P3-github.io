@@ -10,9 +10,8 @@
  - Processing-Java Libraries must be installed into the IDE
  - Java Libraries simply require the 'import' declaration
  
- - Note: Hard Drive Registery or address
- 
- - Library will not execute since not using full compiler
+ - See Concepts to illustrate programming modularity
+ Boilerplate
  
  */
 //Library - Minim
@@ -107,11 +106,12 @@ void setup() {
   //playList[currentSong].play();
   //soundEffects[currentSong].play();
   //
-  inspectMetaData( playListMetaData );
+  inspectMetaData( playListMetaData ); //Can be turned off after inspection from MAIN
   //
 }//End Setup
 //
 void draw() {
+  //println("Draw:", currentSong); //Note: concatentation using a comma adds a space in the CONSOLE
   drawText( playListMetaData[currentSong].title(), playListMetaData[currentSong].genre() ); //Note: also author // playListMetaData[currentSong].genre()
 }//End Draw
 //
