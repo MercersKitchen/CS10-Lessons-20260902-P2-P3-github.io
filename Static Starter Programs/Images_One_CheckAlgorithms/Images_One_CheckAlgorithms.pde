@@ -104,6 +104,7 @@ if ( imageHeightAdjusted1 > imageDivHeight ) {
 //DIV
 rect( imageDivX, imageDivY, imageDivWidth, imageDivHeight );
 //
+image (image1, 0, 0, appWidth, appHeight );
 //image( image1, imageDivX, imageDivY, imageDivWidth, imageDivHeight );
 image( image1, imageDivX, imageDivY, imageWidthAdjusted1, imageHeightAdjusted1 );
 //
