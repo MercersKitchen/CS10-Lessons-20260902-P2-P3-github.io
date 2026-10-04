@@ -1,4 +1,4 @@
-//DIVs
+// COpy and Paste DIVs
 /* Steps for Scafolding Program while learning code
  rect(nameX, nameY, nameWidth, nameHeight);
  Copy, Paste & Rename rect(parameters)
